@@ -1,0 +1,9 @@
+[Unit]
+Description=Vigilix Test Service
+
+[Service]
+ExecStart=/home/batman/.gemini/antigravity/scratch/vigilix/test-service/test-service.sh
+Restart=always
+
+[Install]
+WantedBy=default.target
