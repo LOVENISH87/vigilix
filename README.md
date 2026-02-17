@@ -1,10 +1,10 @@
-# Vigilix 🚀
+# Vigilix 
 
 **Vigilix** is a modern, high-performance terminal user interface (TUI) for managing systemd services. Built with Go and the Bubble Tea framework, it provides a beautiful, responsive, and efficient way to monitor and control your system units.
 
 ![Vigilix Demo](https://via.placeholder.com/800x400.png?text=Vigilix+TUI+Screenshot)
 
-## ✨ Features
+## Features
 
 - **Real-Time Monitoring**: View the status of all systemd units instantly.
 - **Interactive Control**: Start, stop, and restart services with a single keystroke.
@@ -14,14 +14,14 @@
 - **Filtering**: Quickly find services with powerful search capabilities (`/`).
 - **Dev Mode**: Automatic filtering for common developer services (Docker, Postgres, etc.).
 
-## 📦 Installation
+## Installation
 
 ### From Source (Go Developers)
 
 If you have Go installed, you can install Vigilix directly:
 
 ```bash
-go install github.com/your-username/vigilix/cmd/vigilix@latest
+go install github.com/LOVENISH87/vigilix/cmd/vigilix@latest
 ```
 
 Ensure your `$GOPATH/bin` is in your `$PATH`.
@@ -29,13 +29,13 @@ Ensure your `$GOPATH/bin` is in your `$PATH`.
 ### Manual Build
 
 ```bash
-git clone https://github.com/your-username/vigilix.git
+git clone https://github.com/LOVENISH87/vigilix.git
 cd vigilix
 go build -o vigilix cmd/vigilix/main.go
 sudo mv vigilix /usr/local/bin/
 ```
 
-## 🚀 Usage
+## Usage
 
 Since Vigilix interacts with systemd, it typically requires elevated privileges to manage system services:
 
@@ -57,7 +57,7 @@ sudo vigilix
 | `d` | Toggle **Dev Mode** (filter common dev tools) |
 | `q` | Quit |
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Language**: Go (Golang)
 - **TUI Framework**: [Bubble Tea](https://github.com/charmbracelet/bubbletea)
